@@ -8,8 +8,8 @@ const path = require('path');
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
 
-// const PORT = process.env.PORT || 4000;
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
+
 // deploying again
 // create a new Apollo server and pass in our schema data
 const server = new ApolloServer({
