@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/Mutations';
-import Auth from '../utils/auth';
+import Auth from '../utils/Auth';
 import Signup from '../pages/Signup';
 
 const Login = (props) => {
@@ -28,6 +28,7 @@ const Login = (props) => {
       Auth.login(data.login.token);
     } catch (e) {
       console.log(formState)
+      console.log('here')
       console.error(e);
     }
   }

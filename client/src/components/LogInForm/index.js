@@ -2,7 +2,7 @@ import React,  { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useMutation } from '@apollo/client';
-import Auth from "../../utils/auth";
+import Auth from "../../utils/Auth";
 import { LOGIN_USER } from '../../utils/Mutations';
 
 
@@ -26,6 +26,7 @@ function LogInForm() {
             console.log(data)
             Auth.login(data.login.token)
         }catch{
+            console.log(formState)
             console.log(error)
         }
         }

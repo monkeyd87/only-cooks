@@ -21,7 +21,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/Signup.css";
 import "./styles/Navbar.css";
 import "./styles/Footer.css";
-import Auth from "./utils/auth";
+import Auth from "./utils/Auth";
 
 const httpLink = createHttpLink({
   uri: "http://localhost:3001/graphql",
