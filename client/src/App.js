@@ -24,7 +24,7 @@ import "./styles/Footer.css";
 import Auth from "./utils/Auth";
 
 const httpLink = createHttpLink({
-  uri: "/graphql",
+  uri: "/graphq",
 });
 
 
