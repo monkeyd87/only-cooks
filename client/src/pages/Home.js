@@ -16,7 +16,7 @@ function Home() {
             <div className="intro">
               <h1>
                 {" "}
-                What is <span className="only-cooks"> 0nlyCooks </span>?{" "}
+                What is <span className="only-cooks"> 🅾️nlyCooks </span>?{" "}
               </h1>
               <div className="my-2">
                 <p>
