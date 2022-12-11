@@ -16,7 +16,7 @@ function Home() {
             <div className="intro">
               <h1>
                 {" "}
-                What is <span className="only-cooks"> 🅾️nlyCooks </span>?{" "}
+                What is <span className="only-cooks"> OnlyCooks </span>?{" "}
               </h1>
               <div className="my-2">
                 <p>
@@ -25,7 +25,7 @@ function Home() {
                   looking for a new and cool recipe to impress your loved ones,
                   you can explore our database of recipes from kitchens across
                   the globe! All are welcome to join this community of cooks and
-                  creators!
+                  creators😀!
                 </p>
                 <div className="home-photo">
                   <img
