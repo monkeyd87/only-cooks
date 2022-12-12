@@ -5,6 +5,7 @@ import {
   ApolloClient,
   InMemoryCache,
   createHttpLink,
+  HttpLink
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 import Nav from "./components/Nav";
@@ -23,8 +24,11 @@ import "./styles/Navbar.css";
 import "./styles/Footer.css";
 import Auth from "./utils/Auth";
 
+const PORT = process.env.PORT || 4000
+
+
 const httpLink = createHttpLink({
-  uri: "/graphql",
+  uri: `http://localhost:${PORT}/graphql`,
 });
 
 
