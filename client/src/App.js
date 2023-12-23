@@ -24,11 +24,11 @@ import "./styles/Navbar.css";
 import "./styles/Footer.css";
 import Auth from "./utils/Auth";
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 'http://localhost:4000'
 
 
 const httpLink = createHttpLink({
-  uri: `http://localhost:${PORT}/graphql`,
+  uri: `${PORT}/graphql`,
 });
 
 
