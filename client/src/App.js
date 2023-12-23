@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 'http://localhost:4000'
 
 
 const httpLink = createHttpLink({
-  uri: `${PORT}/graphql`,
+  uri: `https://onlycooks.herokuapp.com/graphql`,
 });
 
 
